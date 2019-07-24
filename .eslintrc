@@ -1,0 +1,81 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "detox", "simple-import-sort"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "detox/detox": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/babel",
+    "prettier/react"
+  ],
+  "globals": {
+    "__DEV__": true,
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {}
+    }
+  },
+  "rules": {
+    "semi": "off",
+    "@typescript-eslint/semi": "off",
+    "omitImportAndExport": true,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react/forbid-prop-types": "off",
+    "import/no-unresolved": "off",
+    "no-use-before-define": "off",
+    "react/prop-types": "off",
+    "comma-dangle": "off",
+    "global-require": "off",
+    "react/prefer-stateless-function": "off",
+    "one-var": "off",
+    "no-alert": "off",
+    "no-unused-vars": "off",
+    "one-var-declaration-per-line": "off",
+    "no-underscore-dangle": "off",
+    "no-console": "off",
+    "no-unexpected-multiline": "off",
+    "import/no-duplicates": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-object-literal-type-assertion": "off",
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "simple-import-sort/sort": "error",
+    "sort-imports": "off",
+    "import/order": "off"
+  }
+}
