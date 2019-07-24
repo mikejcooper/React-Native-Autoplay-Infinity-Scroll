@@ -5,6 +5,16 @@
 
 ---
 
+<!-- <a href="https://imgflip.com/gif/36extq"><img src="https://i.imgflip.com/36extq.gif" title="made at imgflip.com"/></a> -->
+<!-- <a href="https://imgflip.com/gif/36ez7s"><img src="https://i.imgflip.com/36ez7s.gif" title="made at imgflip.com"/></a> -->
+
+## Slow Scrolling & Fast Scrolling
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a align="left" href="https://imgflip.com/gif/36ezfp"><img src="https://i.imgflip.com/36ezfp.gif" title="made at imgflip.com"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a align="right" href="https://imgflip.com/gif/36ezwp"><img src="https://i.imgflip.com/36ezwp.gif" title="made at imgflip.com"/></a>
+
 ## Getting Started
 
 #### Install node modules:
