@@ -18,21 +18,17 @@ class App extends Component<IState> {
     this.setState({ isLoading: true })
 
     setTimeout(() => {
-      this.setState({ data: DataStore.videoData, isLoading: false })
+      this.setState({ isLoading: false, data: DataStore.getData() })
     }, 500)
   }
 
   onLoadMore = () => {
     this.setState({ isLoading: true })
 
-    const moreData = DataStore.videoData.map(function(item) {
-      const newItem = { ...item } // Shallow copy
-      newItem.id = Math.random()
-      return newItem
-    })
+    const moreData = DataStore.getData()
 
     setTimeout(() => {
-      this.setState({ data: this.state.data.concat(moreData), isLoading: false })
+      this.setState({ isLoading: false, data: this.state.data.concat(moreData) })
     }, 1000)
   }
 
@@ -40,7 +36,7 @@ class App extends Component<IState> {
     this.setState({ isRefreshing: true })
 
     setTimeout(() => {
-      this.setState({ data: DataStore.videoData, isRefreshing: false })
+      this.setState({ isRefreshing: false, data: DataStore.getData() })
     }, 1000)
   }
 

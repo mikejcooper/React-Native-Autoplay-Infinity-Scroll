@@ -17,7 +17,7 @@ interface ListProps {
 const VideoList: FunctionComponent<ListProps> = props => (
   <SectionList.InFocus
     sections={[{ title: 'Video List', data: props.videos }]}
-    // Important bit.. We now make available itemInFocus & itemInFocusWindow to each item in list.
+    // Important bit.. We now make itemInFocus & itemInFocusWindow available to each item in list.
     renderItemWithInfo={(item: VideoData, itemInFocus: boolean, itemInFocusWindow: boolean) => {
       return (
         <VideoItem
@@ -53,7 +53,7 @@ const VideoList: FunctionComponent<ListProps> = props => (
       props.onLoadMore()
     }}
     windowSize={15}
-    keyExtractor={item => item.id}
+    keyExtractor={(item: VideoData) => item.id}
     renderSectionHeader={({ section }) => {
       return <SectionList.Components.SectionHeaderItem title={section.title} />
     }}

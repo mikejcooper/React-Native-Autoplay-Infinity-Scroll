@@ -4,7 +4,7 @@ export interface VideoData {
   thumbnailUrl: string
 }
 
-const videoData: VideoData[] = [
+const data: VideoData[] = [
   {
     id: 0,
     url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
@@ -87,6 +87,14 @@ const videoData: VideoData[] = [
   },
 ]
 
-const DataStore = { videoData }
+function getData() {
+  return data.map(function(item) {
+    const newItem = { ...item } // Shallow copy
+    newItem.id = Math.random()
+    return newItem
+  })
+}
+
+const DataStore = { getData }
 
 export default DataStore

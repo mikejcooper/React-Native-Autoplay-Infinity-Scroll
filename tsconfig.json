@@ -13,6 +13,6 @@
       "src/*": ["*"]
     }
   },
-  "include": ["src/**/*", "config"],
+  "include": ["src/**/*", "config", "package"],
   "exclude": ["node_modules"]
 }
